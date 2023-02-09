@@ -1,0 +1,76 @@
+.input-container {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 150px;
+    min-height: 30px;
+    width: 300px;
+    height: 30px;
+    border: 3px solid lightgreen;
+    font-size: 16px;
+}
+
+button:hover {
+    transition: all .3s;
+    color: blue;
+}
+
+.btn-send {
+    width: 100px;
+    background-color: lightgreen;
+    border: none;
+
+}
+
+.btn-geolocation {
+    width: 90px;
+    background-color: lightgreen;
+    border: none;
+}
+
+.messages-container {
+    margin: 0 auto;
+    width: 494px;
+    height: 400px;
+    border: 3px solid lightgreen;
+    overflow-y: scroll;
+}
+
+.message {
+    width: fit-content;
+    min-width: 20px;
+    max-width: 360px;
+
+    border: 3px solid cornflowerblue;
+    border-radius: 20px;
+
+    padding: 10px;
+    margin: 3px 3px 7px 3px;
+
+    overflow-wrap: break-word;
+    text-align: left;
+    background-color: aliceblue;
+}
+
+.right-message {
+    inline-size: fit-content;
+    margin-left: auto;
+    border-color: lightgreen;
+}
+
+.error-message {
+    background-color: red;
+    border-color: black;
+    color: white;
+}
+
+#start-span {
+    font-size: 16px;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.3);
+    margin-left: 200px;
+}
